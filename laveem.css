@@ -1,0 +1,28 @@
+.loading {
+  background: url(images/spinner.gif) no-repeat 0 50%;
+  padding-left: 18px;
+}
+
+.icon32 {
+  background: url(images/logo-32x32.png) no-repeat 0 50%;
+}
+
+.instructions,
+.instructions a {
+  line-height: 2em;
+}
+.instructions a {
+  display: inline-block;
+}
+
+.reminder {
+  color: green;
+}
+
+.error p + p {
+  margin-top: 1em;
+}
+
+input[disabled] {
+  color: #ccc;
+}
